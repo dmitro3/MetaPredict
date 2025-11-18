@@ -77,7 +77,7 @@ Real-time price feeds with **sub-second updates** (up to 100ms) for price-based 
 
 </div>
 
-**Contract**: [`ChainlinkDataStreamsIntegration`](https://testnet.opbnbscan.com/address/0xe1a2ac2d4269400904A7240B2B3Cef20DBE7939F#code)  
+**Contract**: [`ChainlinkDataStreamsIntegration`](https://testnet.opbnbscan.com/address/0x1758d4da0bAd4DB90Dfd56Be259C19cabDcF03fd#code)  
 **Verifier Proxy**: `0x001225Aca0efe49Dbb48233aB83a9b4d177b581A`
 
 ### 🛡️ Insurance Pool (ERC-4626)
@@ -111,21 +111,21 @@ Simple yes/no predictions. Perfect for straightforward questions.
 
 **Example**: "Will BTC reach $100K by December 2025?"
 
-**Contract**: [`BinaryMarket`](https://testnet.opbnbscan.com/address/0x44bF3De950526d5BDbfaA284F6430c72Ea99163B#code)
+**Contract**: [`BinaryMarket`](https://testnet.opbnbscan.com/address/0x41A5CFeEf9C7fc50e68E13bAbB11b3B8872a0b6d#code)
 
 #### 2. 🔗 Conditional Markets
 If-then predictions with parent-child relationships.
 
 **Example**: "If BTC reaches $100K, will ETH reach $10K?"
 
-**Contract**: [`ConditionalMarket`](https://testnet.opbnbscan.com/address/0x45E223eAB99761A7E60eF7690420C178FEBD23df#code)
+**Contract**: [`ConditionalMarket`](https://testnet.opbnbscan.com/address/0x41C2b1FB595Ad18cb111c3a3Fc1B2d6307e43741#code)
 
 #### 3. 🗳️ Subjective Markets
 DAO-governed markets with quadratic voting.
 
 **Example**: "Which DeFi protocol will have the most TVL in 2026?"
 
-**Contract**: [`SubjectiveMarket`](https://testnet.opbnbscan.com/address/0xaBb50827b49E7c725B6A8B735348D3A2a34E70cE#code)
+**Contract**: [`SubjectiveMarket`](https://testnet.opbnbscan.com/address/0xAE88cE8f797FCBD36b0Ae78f80FDb11774d766f8#code)
 
 ### 🌐 Cross-Chain Aggregation
 
@@ -207,6 +207,7 @@ pnpm dev
 ### ✅ **All Contracts Verified (10/10)** ✅
 
 **Last Updated**: November 18, 2025  
+**Source**: Direcciones oficiales desde `frontend/lib/contracts/addresses.ts` (en uso en producción)  
 **Network**: opBNB Testnet (Chain ID: 5611)  
 **Token**: **Native BNB** (no ERC20 tokens required)  
 **Explorer**: [opBNBScan Testnet](https://testnet.opbnbscan.com/)
@@ -217,7 +218,7 @@ pnpm dev
 
 | Contract | Address | Status | Explorer |
 |:--------|:--------|:------:|:--------:|
-| **🎯 Prediction Market Core** | `0xCB6a24b349c96526B6e7b79a87B2c4009d25D7AC` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0xCB6a24b349c96526B6e7b79a87B2c4009d25D7AC#code) |
+| **🎯 Prediction Market Core** | `0x5eaa77CC135b82c254F1144c48f4d179964fA0b1` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0x5eaa77CC135b82c254F1144c48f4d179964fA0b1#code) |
 | **🤖 AI Oracle** | `0xcc10a98Aa285E7bD16be1Ef8420315725C3dB66c` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0xcc10a98Aa285E7bD16be1Ef8420315725C3dB66c#code) |
 | **🛡️ Insurance Pool** | `0xD30B71e1Af743cD93b3b1d7d314822Bc4cd860dA` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0xD30B71e1Af743cD93b3b1d7d314822Bc4cd860dA#code) |
 | **🏆 Reputation Staking** | `0x5935C4002Bf11eCD4525d60Ef7e2B949421E15E7` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0x5935C4002Bf11eCD4525d60Ef7e2B949421E15E7#code) |
@@ -228,9 +229,9 @@ pnpm dev
 
 | Contract | Address | Status | Explorer |
 |:--------|:--------|:------:|:--------:|
-| **📊 Binary Market** | `0x44bF3De950526d5BDbfaA284F6430c72Ea99163B` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0x44bF3De950526d5BDbfaA284F6430c72Ea99163B#code) |
-| **🔗 Conditional Market** | `0x45E223eAB99761A7E60eF7690420C178FEBD23df` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0x45E223eAB99761A7E60eF7690420C178FEBD23df#code) |
-| **🗳️ Subjective Market** | `0xaBb50827b49E7c725B6A8B735348D3A2a34E70cE` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0xaBb50827b49E7c725B6A8B735348D3A2a34E70cE#code) |
+| **📊 Binary Market** | `0x41A5CFeEf9C7fc50e68E13bAbB11b3B8872a0b6d` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0x41A5CFeEf9C7fc50e68E13bAbB11b3B8872a0b6d#code) |
+| **🔗 Conditional Market** | `0x41C2b1FB595Ad18cb111c3a3Fc1B2d6307e43741` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0x41C2b1FB595Ad18cb111c3a3Fc1B2d6307e43741#code) |
+| **🗳️ Subjective Market** | `0xAE88cE8f797FCBD36b0Ae78f80FDb11774d766f8` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0xAE88cE8f797FCBD36b0Ae78f80FDb11774d766f8#code) |
 
 ### ⚡ Oracle & Data Integration
 
@@ -254,15 +255,15 @@ pnpm dev
 
 All contracts have been verified on opBNBScan with source code available for public inspection:
 
-- ✅ **PredictionMarketCore**: [View Contract](https://testnet.opbnbscan.com/address/0xCB6a24b349c96526B6e7b79a87B2c4009d25D7AC#code) | [View Transactions](https://testnet.opbnbscan.com/address/0xCB6a24b349c96526B6e7b79a87B2c4009d25D7AC#txs)
+- ✅ **PredictionMarketCore**: [View Contract](https://testnet.opbnbscan.com/address/0x5eaa77CC135b82c254F1144c48f4d179964fA0b1#code) | [View Transactions](https://testnet.opbnbscan.com/address/0x5eaa77CC135b82c254F1144c48f4d179964fA0b1#txs)
 - ✅ **AIOracle**: [View Contract](https://testnet.opbnbscan.com/address/0xcc10a98Aa285E7bD16be1Ef8420315725C3dB66c#code) | [View Transactions](https://testnet.opbnbscan.com/address/0xcc10a98Aa285E7bD16be1Ef8420315725C3dB66c#txs)
 - ✅ **InsurancePool**: [View Contract](https://testnet.opbnbscan.com/address/0xD30B71e1Af743cD93b3b1d7d314822Bc4cd860dA#code) | [View Transactions](https://testnet.opbnbscan.com/address/0xD30B71e1Af743cD93b3b1d7d314822Bc4cd860dA#txs)
 - ✅ **ReputationStaking**: [View Contract](https://testnet.opbnbscan.com/address/0x5935C4002Bf11eCD4525d60Ef7e2B949421E15E7#code) | [View Transactions](https://testnet.opbnbscan.com/address/0x5935C4002Bf11eCD4525d60Ef7e2B949421E15E7#txs)
 - ✅ **DAOGovernance**: [View Contract](https://testnet.opbnbscan.com/address/0xC2eD64e39cD7A6Ab9448f14E1f965E1D1e819123#code) | [View Transactions](https://testnet.opbnbscan.com/address/0xC2eD64e39cD7A6Ab9448f14E1f965E1D1e819123#txs)
 - ✅ **OmniRouter**: [View Contract](https://testnet.opbnbscan.com/address/0x11C1124384e463d99Ba84348280e318FbeE544d0#code) | [View Transactions](https://testnet.opbnbscan.com/address/0x11C1124384e463d99Ba84348280e318FbeE544d0#txs)
-- ✅ **BinaryMarket**: [View Contract](https://testnet.opbnbscan.com/address/0x44bF3De950526d5BDbfaA284F6430c72Ea99163B#code) | [View Transactions](https://testnet.opbnbscan.com/address/0x44bF3De950526d5BDbfaA284F6430c72Ea99163B#txs)
-- ✅ **ConditionalMarket**: [View Contract](https://testnet.opbnbscan.com/address/0x45E223eAB99761A7E60eF7690420C178FEBD23df#code) | [View Transactions](https://testnet.opbnbscan.com/address/0x45E223eAB99761A7E60eF7690420C178FEBD23df#txs)
-- ✅ **SubjectiveMarket**: [View Contract](https://testnet.opbnbscan.com/address/0xaBb50827b49E7c725B6A8B735348D3A2a34E70cE#code) | [View Transactions](https://testnet.opbnbscan.com/address/0xaBb50827b49E7c725B6A8B735348D3A2a34E70cE#txs)
+- ✅ **BinaryMarket**: [View Contract](https://testnet.opbnbscan.com/address/0x41A5CFeEf9C7fc50e68E13bAbB11b3B8872a0b6d#code) | [View Transactions](https://testnet.opbnbscan.com/address/0x41A5CFeEf9C7fc50e68E13bAbB11b3B8872a0b6d#txs)
+- ✅ **ConditionalMarket**: [View Contract](https://testnet.opbnbscan.com/address/0x41C2b1FB595Ad18cb111c3a3Fc1B2d6307e43741#code) | [View Transactions](https://testnet.opbnbscan.com/address/0x41C2b1FB595Ad18cb111c3a3Fc1B2d6307e43741#txs)
+- ✅ **SubjectiveMarket**: [View Contract](https://testnet.opbnbscan.com/address/0xAE88cE8f797FCBD36b0Ae78f80FDb11774d766f8#code) | [View Transactions](https://testnet.opbnbscan.com/address/0xAE88cE8f797FCBD36b0Ae78f80FDb11774d766f8#txs)
 - ✅ **ChainlinkDataStreamsIntegration**: [View Contract](https://testnet.opbnbscan.com/address/0x1758d4da0bAd4DB90Dfd56Be259C19cabDcF03fd#code) | [View Transactions](https://testnet.opbnbscan.com/address/0x1758d4da0bAd4DB90Dfd56Be259C19cabDcF03fd#txs)
 
 ---
@@ -381,7 +382,7 @@ All Stream IDs have been verified and are ready to use:
 import "./oracle/ChainlinkDataStreamsIntegration.sol";
 
 ChainlinkDataStreamsIntegration dataStreams = ChainlinkDataStreamsIntegration(
-    0x1758d4da0bAd4DB90Dfd56Be259C19cabDcF03fd
+    0x1758d4da0bAd4DB90Dfd56Be259C19cabDcF03fd  // Dirección oficial en uso
 );
 
 // Configure a market to use BTC/USD
