@@ -78,7 +78,8 @@ Real-time price feeds with **sub-second updates** (up to 100ms) for price-based 
 </div>
 
 **Contract**: [`ChainlinkDataStreamsIntegration`](https://testnet.opbnbscan.com/address/0x1758d4da0bAd4DB90Dfd56Be259C19cabDcF03fd#code)  
-**Verifier Proxy**: `0x001225Aca0efe49Dbb48233aB83a9b4d177b581A`
+**Verifier Proxy**: [`0x001225Aca0efe49Dbb48233aB83a9b4d177b581A`](https://testnet.opbnbscan.com/address/0x001225Aca0efe49Dbb48233aB83a9b4d177b581A)  
+**Data Streams Portal**: [View on Chainlink](https://data.chain.link/streams)
 
 ### 🛡️ Insurance Pool (ERC-4626)
 
@@ -111,21 +112,21 @@ Simple yes/no predictions. Perfect for straightforward questions.
 
 **Example**: "Will BTC reach $100K by December 2025?"
 
-**Contract**: [`BinaryMarket`](https://testnet.opbnbscan.com/address/0x41A5CFeEf9C7fc50e68E13bAbB11b3B8872a0b6d#code)
+**Contract**: [`BinaryMarket`](https://testnet.opbnbscan.com/address/0x44bF3De950526d5BDbfaA284F6430c72Ea99163B#code)
 
 #### 2. 🔗 Conditional Markets
 If-then predictions with parent-child relationships.
 
 **Example**: "If BTC reaches $100K, will ETH reach $10K?"
 
-**Contract**: [`ConditionalMarket`](https://testnet.opbnbscan.com/address/0x41C2b1FB595Ad18cb111c3a3Fc1B2d6307e43741#code)
+**Contract**: [`ConditionalMarket`](https://testnet.opbnbscan.com/address/0x45E223eAB99761A7E60eF7690420C178FEBD23df#code)
 
 #### 3. 🗳️ Subjective Markets
 DAO-governed markets with quadratic voting.
 
 **Example**: "Which DeFi protocol will have the most TVL in 2026?"
 
-**Contract**: [`SubjectiveMarket`](https://testnet.opbnbscan.com/address/0xAE88cE8f797FCBD36b0Ae78f80FDb11774d766f8#code)
+**Contract**: [`SubjectiveMarket`](https://testnet.opbnbscan.com/address/0xaBb50827b49E7c725B6A8B735348D3A2a34E70cE#code)
 
 ### 🌐 Cross-Chain Aggregation
 
@@ -207,7 +208,7 @@ pnpm dev
 ### ✅ **All Contracts Verified (10/10)** ✅
 
 **Last Updated**: November 18, 2025  
-**Source**: Direcciones oficiales desde `frontend/lib/contracts/addresses.ts` (en uso en producción)  
+**Source**: Official addresses from `frontend/lib/contracts/addresses.ts` (in production use)  
 **Network**: opBNB Testnet (Chain ID: 5611)  
 **Token**: **Native BNB** (no ERC20 tokens required)  
 **Explorer**: [opBNBScan Testnet](https://testnet.opbnbscan.com/)
@@ -218,7 +219,7 @@ pnpm dev
 
 | Contract | Address | Status | Explorer |
 |:--------|:--------|:------:|:--------:|
-| **🎯 Prediction Market Core** | `0x5eaa77CC135b82c254F1144c48f4d179964fA0b1` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0x5eaa77CC135b82c254F1144c48f4d179964fA0b1#code) |
+| **🎯 Prediction Market Core** | `0xCB6a24b349c96526B6e7b79a87B2c4009d25D7AC` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0xCB6a24b349c96526B6e7b79a87B2c4009d25D7AC#code) |
 | **🤖 AI Oracle** | `0xcc10a98Aa285E7bD16be1Ef8420315725C3dB66c` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0xcc10a98Aa285E7bD16be1Ef8420315725C3dB66c#code) |
 | **🛡️ Insurance Pool** | `0xD30B71e1Af743cD93b3b1d7d314822Bc4cd860dA` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0xD30B71e1Af743cD93b3b1d7d314822Bc4cd860dA#code) |
 | **🏆 Reputation Staking** | `0x5935C4002Bf11eCD4525d60Ef7e2B949421E15E7` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0x5935C4002Bf11eCD4525d60Ef7e2B949421E15E7#code) |
@@ -229,9 +230,9 @@ pnpm dev
 
 | Contract | Address | Status | Explorer |
 |:--------|:--------|:------:|:--------:|
-| **📊 Binary Market** | `0x41A5CFeEf9C7fc50e68E13bAbB11b3B8872a0b6d` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0x41A5CFeEf9C7fc50e68E13bAbB11b3B8872a0b6d#code) |
-| **🔗 Conditional Market** | `0x41C2b1FB595Ad18cb111c3a3Fc1B2d6307e43741` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0x41C2b1FB595Ad18cb111c3a3Fc1B2d6307e43741#code) |
-| **🗳️ Subjective Market** | `0xAE88cE8f797FCBD36b0Ae78f80FDb11774d766f8` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0xAE88cE8f797FCBD36b0Ae78f80FDb11774d766f8#code) |
+| **📊 Binary Market** | `0x44bF3De950526d5BDbfaA284F6430c72Ea99163B` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0x44bF3De950526d5BDbfaA284F6430c72Ea99163B#code) |
+| **🔗 Conditional Market** | `0x45E223eAB99761A7E60eF7690420C178FEBD23df` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0x45E223eAB99761A7E60eF7690420C178FEBD23df#code) |
+| **🗳️ Subjective Market** | `0xaBb50827b49E7c725B6A8B735348D3A2a34E70cE` | ✅ Verified | [View on opBNBScan](https://testnet.opbnbscan.com/address/0xaBb50827b49E7c725B6A8B735348D3A2a34E70cE#code) |
 
 ### ⚡ Oracle & Data Integration
 
@@ -244,7 +245,7 @@ pnpm dev
 - **🌐 Network**: opBNB Testnet (Chain ID: 5611)
 - **🔍 Explorer**: [opBNBScan Testnet](https://testnet.opbnbscan.com/)
 - **💰 Token**: **Native BNB** (no ERC20 tokens required)
-- **👤 Deployer Address**: `0x8eC3829793D0a2499971d0D853935F17aB52F800`
+- **👤 Deployer Address**: [`0x8eC3829793D0a2499971d0D853935F17aB52F800`](https://testnet.opbnbscan.com/address/0x8eC3829793D0a2499971d0D853935F17aB52F800)
 - **📅 Deployment Date**: November 18, 2025
 - **✅ Verification Date**: November 18, 2025
 - **📄 Deployment File**: `smart-contracts/deployments/opbnb-testnet.json`
@@ -255,15 +256,15 @@ pnpm dev
 
 All contracts have been verified on opBNBScan with source code available for public inspection:
 
-- ✅ **PredictionMarketCore**: [View Contract](https://testnet.opbnbscan.com/address/0x5eaa77CC135b82c254F1144c48f4d179964fA0b1#code) | [View Transactions](https://testnet.opbnbscan.com/address/0x5eaa77CC135b82c254F1144c48f4d179964fA0b1#txs)
+- ✅ **PredictionMarketCore**: [View Contract](https://testnet.opbnbscan.com/address/0xCB6a24b349c96526B6e7b79a87B2c4009d25D7AC#code) | [View Transactions](https://testnet.opbnbscan.com/address/0xCB6a24b349c96526B6e7b79a87B2c4009d25D7AC#txs)
 - ✅ **AIOracle**: [View Contract](https://testnet.opbnbscan.com/address/0xcc10a98Aa285E7bD16be1Ef8420315725C3dB66c#code) | [View Transactions](https://testnet.opbnbscan.com/address/0xcc10a98Aa285E7bD16be1Ef8420315725C3dB66c#txs)
 - ✅ **InsurancePool**: [View Contract](https://testnet.opbnbscan.com/address/0xD30B71e1Af743cD93b3b1d7d314822Bc4cd860dA#code) | [View Transactions](https://testnet.opbnbscan.com/address/0xD30B71e1Af743cD93b3b1d7d314822Bc4cd860dA#txs)
 - ✅ **ReputationStaking**: [View Contract](https://testnet.opbnbscan.com/address/0x5935C4002Bf11eCD4525d60Ef7e2B949421E15E7#code) | [View Transactions](https://testnet.opbnbscan.com/address/0x5935C4002Bf11eCD4525d60Ef7e2B949421E15E7#txs)
 - ✅ **DAOGovernance**: [View Contract](https://testnet.opbnbscan.com/address/0xC2eD64e39cD7A6Ab9448f14E1f965E1D1e819123#code) | [View Transactions](https://testnet.opbnbscan.com/address/0xC2eD64e39cD7A6Ab9448f14E1f965E1D1e819123#txs)
 - ✅ **OmniRouter**: [View Contract](https://testnet.opbnbscan.com/address/0x11C1124384e463d99Ba84348280e318FbeE544d0#code) | [View Transactions](https://testnet.opbnbscan.com/address/0x11C1124384e463d99Ba84348280e318FbeE544d0#txs)
-- ✅ **BinaryMarket**: [View Contract](https://testnet.opbnbscan.com/address/0x41A5CFeEf9C7fc50e68E13bAbB11b3B8872a0b6d#code) | [View Transactions](https://testnet.opbnbscan.com/address/0x41A5CFeEf9C7fc50e68E13bAbB11b3B8872a0b6d#txs)
-- ✅ **ConditionalMarket**: [View Contract](https://testnet.opbnbscan.com/address/0x41C2b1FB595Ad18cb111c3a3Fc1B2d6307e43741#code) | [View Transactions](https://testnet.opbnbscan.com/address/0x41C2b1FB595Ad18cb111c3a3Fc1B2d6307e43741#txs)
-- ✅ **SubjectiveMarket**: [View Contract](https://testnet.opbnbscan.com/address/0xAE88cE8f797FCBD36b0Ae78f80FDb11774d766f8#code) | [View Transactions](https://testnet.opbnbscan.com/address/0xAE88cE8f797FCBD36b0Ae78f80FDb11774d766f8#txs)
+- ✅ **BinaryMarket**: [View Contract](https://testnet.opbnbscan.com/address/0x44bF3De950526d5BDbfaA284F6430c72Ea99163B#code) | [View Transactions](https://testnet.opbnbscan.com/address/0x44bF3De950526d5BDbfaA284F6430c72Ea99163B#txs)
+- ✅ **ConditionalMarket**: [View Contract](https://testnet.opbnbscan.com/address/0x45E223eAB99761A7E60eF7690420C178FEBD23df#code) | [View Transactions](https://testnet.opbnbscan.com/address/0x45E223eAB99761A7E60eF7690420C178FEBD23df#txs)
+- ✅ **SubjectiveMarket**: [View Contract](https://testnet.opbnbscan.com/address/0xaBb50827b49E7c725B6A8B735348D3A2a34E70cE#code) | [View Transactions](https://testnet.opbnbscan.com/address/0xaBb50827b49E7c725B6A8B735348D3A2a34E70cE#txs)
 - ✅ **ChainlinkDataStreamsIntegration**: [View Contract](https://testnet.opbnbscan.com/address/0x1758d4da0bAd4DB90Dfd56Be259C19cabDcF03fd#code) | [View Transactions](https://testnet.opbnbscan.com/address/0x1758d4da0bAd4DB90Dfd56Be259C19cabDcF03fd#txs)
 
 ---
@@ -354,23 +355,23 @@ MetaPredict utilizes **Chainlink Data Streams** to obtain real-time prices with 
 
 All Stream IDs have been verified and are ready to use:
 
-| Trading Pair | Stream ID | Status |
-|:------------|:----------|:------:|
-| **BTC/USD** | `0x00039d9e45394f473ab1f050a1b963e6b05351e52d71e507509ada0c95ed75b8` | ✅ Verified |
-| **ETH/USD** | `0x000362205e10b3a147d02792eccee483dca6c7b44ecce7012cb8c6e0b68b3ae9` | ✅ Verified |
-| **USDT/USD** | `0x0003a910a43485e0685ff5d6d366541f5c21150f0634c5b14254392d1a1c06db` | ✅ Verified |
-| **BNB/USD** | `0x000335fd3f3ffa06cfd9297b97367f77145d7a5f132e84c736cc471dd98621fe` | ✅ Verified |
-| **SOL/USD** | `0x0003b778d3f6b2ac4991302b89cb313f99a42467d6c9c5f96f57c29c0d2bc24f` | ✅ Verified |
-| **XRP/USD** | `0x0003c16c6aed42294f5cb4741f6e59ba2d728f0eae2eb9e6d3f555808c59fc45` | ✅ Verified |
-| **USDC/USD** | `0x00038f83323b6b08116d1614cf33a9bd71ab5e0abf0c9f1b783a74a43e7bd992` | ✅ Verified |
-| **DOGE/USD** | `0x000356ca64d3b32135e17dc0dc721a645bf50d0303be8ceb2cdca0a50bab8fdc` | ✅ Verified |
+| Trading Pair | Stream ID | Status | Portal Link |
+|:------------|:----------|:------:|:-----------:|
+| **BTC/USD** | `0x00039d9e45394f473ab1f050a1b963e6b05351e52d71e507509ada0c95ed75b8` | ✅ Verified | [View on Chainlink](https://data.chain.link/streams) |
+| **ETH/USD** | `0x000362205e10b3a147d02792eccee483dca6c7b44ecce7012cb8c6e0b68b3ae9` | ✅ Verified | [View on Chainlink](https://data.chain.link/streams) |
+| **USDT/USD** | `0x0003a910a43485e0685ff5d6d366541f5c21150f0634c5b14254392d1a1c06db` | ✅ Verified | [View on Chainlink](https://data.chain.link/streams) |
+| **BNB/USD** | `0x000335fd3f3ffa06cfd9297b97367f77145d7a5f132e84c736cc471dd98621fe` | ✅ Verified | [View on Chainlink](https://data.chain.link/streams) |
+| **SOL/USD** | `0x0003b778d3f6b2ac4991302b89cb313f99a42467d6c9c5f96f57c29c0d2bc24f` | ✅ Verified | [View on Chainlink](https://data.chain.link/streams) |
+| **XRP/USD** | `0x0003c16c6aed42294f5cb4741f6e59ba2d728f0eae2eb9e6d3f555808c59fc45` | ✅ Verified | [View on Chainlink](https://data.chain.link/streams) |
+| **USDC/USD** | `0x00038f83323b6b08116d1614cf33a9bd71ab5e0abf0c9f1b783a74a43e7bd992` | ✅ Verified | [View on Chainlink](https://data.chain.link/streams) |
+| **DOGE/USD** | `0x000356ca64d3b32135e17dc0dc721a645bf50d0303be8ceb2cdca0a50bab8fdc` | ✅ Verified | [View on Chainlink](https://data.chain.link/streams) |
 
 ### 🔧 Deployed Contract
 
 - **Contract**: `ChainlinkDataStreamsIntegration`
 - **Address**: [`0x1758d4da0bAd4DB90Dfd56Be259C19cabDcF03fd`](https://testnet.opbnbscan.com/address/0x1758d4da0bAd4DB90Dfd56Be259C19cabDcF03fd#code)
 - **Network**: opBNB Testnet (Chain ID: 5611)
-- **Verifier Proxy**: `0x001225Aca0efe49Dbb48233aB83a9b4d177b581A`
+- **Verifier Proxy**: [`0x001225Aca0efe49Dbb48233aB83a9b4d177b581A`](https://testnet.opbnbscan.com/address/0x001225Aca0efe49Dbb48233aB83a9b4d177b581A)
 - **Explorer**: [View on opBNBScan](https://testnet.opbnbscan.com/address/0x1758d4da0bAd4DB90Dfd56Be259C19cabDcF03fd#code)
 
 ### 🚀 How to Use Chainlink Data Streams
@@ -382,7 +383,7 @@ All Stream IDs have been verified and are ready to use:
 import "./oracle/ChainlinkDataStreamsIntegration.sol";
 
 ChainlinkDataStreamsIntegration dataStreams = ChainlinkDataStreamsIntegration(
-    0x1758d4da0bAd4DB90Dfd56Be259C19cabDcF03fd  // Dirección oficial en uso
+    0x1758d4da0bAd4DB90Dfd56Be259C19cabDcF03fd  // Official address in use
 );
 
 // Configure a market to use BTC/USD
@@ -458,19 +459,62 @@ const { conditionMet, currentPrice, targetPrice } =
 
 </div>
 
-| Category | Technology | Purpose |
-|:--------|:-----------|:--------|
-| **🔗 Blockchain** | ![opBNB](https://img.shields.io/badge/opBNB-Layer%202-orange?style=flat-square&logo=binance) | Main network |
-| **⚡ Oracle** | ![Chainlink](https://img.shields.io/badge/Chainlink-Data%20Streams-375BD2?style=flat-square&logo=chainlink) | Real-time price feeds |
-| **🤖 AI** | ![Google AI](https://img.shields.io/badge/Google-Gemini-blue?style=flat-square&logo=google) ![Groq](https://img.shields.io/badge/Groq-Llama-purple?style=flat-square) ![OpenRouter](https://img.shields.io/badge/OpenRouter-Mistral-green?style=flat-square) | Multi-AI consensus |
-| **🔐 Wallet** | ![Thirdweb](https://img.shields.io/badge/Thirdweb-Embedded%20Wallets-blue?style=flat-square) | Gasless UX |
-| **🌐 Cross-Chain** | ![Chainlink CCIP](https://img.shields.io/badge/Chainlink-CCIP-375BD2?style=flat-square&logo=chainlink) | Cross-chain messaging |
-| **💰 DeFi** | ![Venus Protocol](https://img.shields.io/badge/Venus-Protocol-green?style=flat-square) | Yield farming |
-| **🤖 Automation** | ![Gelato](https://img.shields.io/badge/Gelato-Automation-blue?style=flat-square) | Oracle bot automation |
-| **📝 Smart Contracts** | ![Solidity](https://img.shields.io/badge/Solidity-0.8.20-blue?style=flat-square&logo=solidity) | Contract language |
-| **🔧 Framework** | ![Hardhat](https://img.shields.io/badge/Hardhat-Development-yellow?style=flat-square&logo=ethereum) ![Foundry](https://img.shields.io/badge/Foundry-Testing-red?style=flat-square&logo=foundry) | Development tools |
-| **⚛️ Frontend** | ![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js) ![React](https://img.shields.io/badge/React-18-blue?style=flat-square&logo=react) ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript) | Frontend framework |
-| **🚀 Backend** | ![Node.js](https://img.shields.io/badge/Node.js-18-green?style=flat-square&logo=node.js) ![Express](https://img.shields.io/badge/Express-API-gray?style=flat-square&logo=express) | Backend API |
+### 🔗 Blockchain & Infrastructure
+
+| Technology | Purpose | Badge |
+|:----------|:--------|:------|
+| **opBNB** | Layer 2 network | ![opBNB](https://img.shields.io/badge/opBNB-Layer%202-orange?style=flat-square&logo=binance) |
+| **Chainlink Data Streams** | Real-time price feeds | ![Chainlink](https://img.shields.io/badge/Chainlink-Data%20Streams-375BD2?style=flat-square&logo=chainlink) |
+| **Chainlink CCIP** | Cross-chain messaging | ![Chainlink CCIP](https://img.shields.io/badge/Chainlink-CCIP-375BD2?style=flat-square&logo=chainlink) |
+| **Gelato** | Automation services | ![Gelato](https://img.shields.io/badge/Gelato-Automation-blue?style=flat-square) |
+| **Venus Protocol** | Yield farming | ![Venus](https://img.shields.io/badge/Venus-Protocol-green?style=flat-square) |
+
+### 🤖 AI & Machine Learning
+
+| Technology | Purpose | Badge |
+|:----------|:--------|:------|
+| **Google Gemini 2.5 Flash** | Primary AI model | ![Google AI](https://img.shields.io/badge/Google-Gemini-blue?style=flat-square&logo=google) |
+| **Groq Llama 3.1** | Ultra-fast inference | ![Groq](https://img.shields.io/badge/Groq-Llama-purple?style=flat-square) |
+| **OpenRouter** | AI model aggregation | ![OpenRouter](https://img.shields.io/badge/OpenRouter-Mistral-green?style=flat-square) |
+
+### 🔐 Wallet & UX
+
+| Technology | Purpose | Badge |
+|:----------|:--------|:------|
+| **Thirdweb Embedded Wallets** | Gasless UX | ![Thirdweb](https://img.shields.io/badge/Thirdweb-Embedded%20Wallets-blue?style=flat-square) |
+| **Wagmi v2** | React hooks for Ethereum | ![Wagmi](https://img.shields.io/badge/Wagmi-v2-blue?style=flat-square) |
+| **Viem v2** | TypeScript Ethereum library | ![Viem](https://img.shields.io/badge/Viem-v2-blue?style=flat-square) |
+
+### 📝 Smart Contracts
+
+| Technology | Purpose | Badge |
+|:----------|:--------|:------|
+| **Solidity 0.8.20** | Contract language | ![Solidity](https://img.shields.io/badge/Solidity-0.8.20-blue?style=flat-square&logo=solidity) |
+| **Hardhat** | Development framework | ![Hardhat](https://img.shields.io/badge/Hardhat-Development-yellow?style=flat-square&logo=ethereum) |
+| **Foundry** | Testing framework | ![Foundry](https://img.shields.io/badge/Foundry-Testing-red?style=flat-square&logo=foundry) |
+| **OpenZeppelin** | Secure contracts | ![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-Secure-blue?style=flat-square) |
+
+### ⚛️ Frontend
+
+| Technology | Purpose | Badge |
+|:----------|:--------|:------|
+| **Next.js 15** | React framework | ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js) |
+| **React 19** | UI library | ![React](https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react) |
+| **TypeScript 5** | Type safety | ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript) |
+| **Tailwind CSS** | Styling | ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=flat-square&logo=tailwind-css) |
+| **Framer Motion** | Animations | ![Framer Motion](https://img.shields.io/badge/Framer-Motion-0055FF?style=flat-square&logo=framer) |
+| **TanStack Query** | Data fetching | ![TanStack Query](https://img.shields.io/badge/TanStack-Query-FF4154?style=flat-square) |
+
+### 🚀 Backend
+
+| Technology | Purpose | Badge |
+|:----------|:--------|:------|
+| **Node.js 18+** | Runtime | ![Node.js](https://img.shields.io/badge/Node.js-18-green?style=flat-square&logo=node.js) |
+| **Express** | Web framework | ![Express](https://img.shields.io/badge/Express-API-gray?style=flat-square&logo=express) |
+| **TypeScript** | Type safety | ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript) |
+| **Prisma** | ORM | ![Prisma](https://img.shields.io/badge/Prisma-ORM-2D3748?style=flat-square&logo=prisma) |
+| **PostgreSQL** | Database | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791?style=flat-square&logo=postgresql) |
+| **Winston** | Logging | ![Winston](https://img.shields.io/badge/Winston-Logging-2C3E50?style=flat-square) |
 
 ---
 
@@ -488,8 +532,11 @@ const { conditionMet, currentPrice, targetPrice } =
 | 📜 [Smart Contracts](./docs/SMART_CONTRACTS.md) | Contract documentation |
 | 🤖 [Multi-AI Consensus System](./docs/CONSENSUS_SYSTEM.md) | AI oracle consensus details |
 | 📡 [API Reference](./docs/API.md) | Backend API documentation |
-| 🧪 [Testing Guide](./docs/TESTING.md) | How to test the platform |
+| 🧪 [Testing Guide](./TESTING_COMPLETE.md) | How to test the platform |
 | ⚙️ [Services Setup Guide](./SERVICES_SETUP.md) | Complete setup for external services |
+| 🔒 [Security Audit](./docs/SECURITY_AUDIT.md) | Security best practices |
+| 🚀 [Deployment Guide](./docs/DEPLOYMENT.md) | Deployment instructions |
+| 🪟 [Windows Setup](./docs/WINDOWS_SETUP.md) | Windows development setup |
 
 ---
 
@@ -534,43 +581,6 @@ const { conditionMet, currentPrice, targetPrice } =
 
 **Status**: ✅ **37/37 Tests Passing** (100% Pass Rate)
 
-### 🔧 Backend Tests
-
-**Status**: ✅ **~30 Tests - 100% Coverage**
-
-Tests completos para:
-- ✅ API Routes (8 routes): markets, oracle, reputation, aggregation, users, ai, venus, gelato
-- ✅ Services (5 services): marketService, oracleService, reputationService, aggregationService, userService
-- ✅ Integration tests con contratos desplegados
-- ✅ End-to-end tests completos
-
-**Ubicación**: `backend/src/__tests__/`
-
-### ⚛️ Frontend Tests
-
-**Status**: ✅ **~20 Tests - 100% Coverage**
-
-Tests completos para:
-- ✅ Custom Hooks (10 hooks): usePlaceBet, useInsurance, useReputation, useDAO, useMarkets, useOracle, useBNBBalance, useAggregator, useCreateMarket, useBetting
-- ✅ Integration tests completos
-- ✅ Contract address validation
-- ✅ Error handling y edge cases
-
-**Ubicación**: `frontend/__tests__/`
-
-### 🔗 Integration Tests
-
-**Status**: ✅ **~10 Tests - 100% Coverage**
-
-Tests end-to-end que verifican:
-- ✅ Flujo completo Frontend → Backend → Smart Contracts
-- ✅ Verificación de contratos desplegados (10 contratos)
-- ✅ Health checks y API connectivity
-- ✅ Flujos completos de mercado (creación, apuestas, resolución)
-- ✅ Flujos de insurance, reputación y DAO
-
-All smart contracts are thoroughly tested using **Hardhat** with **Chai** and **Mocha**. Tests use **native BNB (opBNB)** instead of USDC tokens.
-
 #### 📋 Test Suite Overview
 
 We have two comprehensive test suites:
@@ -603,50 +613,6 @@ We have two comprehensive test suites:
 
 **Grand Total**: ✅ **37/37 tests passing** (100% Pass Rate)
 
-#### 🎯 Test Coverage Details
-
-**Market Creation Tests:**
-- ✅ Create binary markets
-- ✅ Create conditional markets
-- ✅ Create subjective markets
-- ✅ Reject invalid resolution times
-
-**Betting Tests:**
-- ✅ Place bets with BNB native
-- ✅ Reject bets below minimum (0.001 BNB)
-- ✅ Reject bets above maximum (100 BNB)
-- ✅ Calculate fees correctly (0.5% trading fee + 0.1% insurance fee)
-- ✅ Allow multiple bets from same user
-
-**Market Resolution Tests:**
-- ✅ Initiate resolution when deadline reached
-- ✅ Resolve market via AI Oracle
-- ✅ Activate insurance on low confidence (<80%)
-
-**Claiming Winnings Tests:**
-- ✅ Allow winners to claim winnings
-- ✅ Prevent losers from claiming
-
-**Reputation Staking Tests:**
-- ✅ Stake BNB for reputation
-- ✅ Upgrade tier based on stake amount (Bronze, Silver, Gold)
-
-**Insurance Pool Tests:**
-- ✅ Deposit BNB to insurance pool
-- ✅ Track pool health metrics
-
-**DAO Governance Tests:**
-- ✅ Create parameter proposals
-
-**Cross-Chain Router Tests:**
-- ✅ Add supported chains
-- ✅ Find best price across chains
-
-**Admin Functions Tests:**
-- ✅ Pause contract operations
-- ✅ Unpause contract operations
-- ✅ Reject operations when paused
-
 #### 🚀 Running Tests
 
 ```bash
@@ -671,168 +637,42 @@ pnpm test:coverage
 
 **Note**: Integration tests (`transactions.test.ts`) connect to deployed contracts on opBNB Testnet and generate real transaction hashes. All transactions are verifiable on [opBNBScan](https://testnet.opbnbscan.com/).
 
-#### 🔧 Test Configuration
+### 🔧 Backend Tests
 
-- **Framework**: Hardhat + Mocha + Chai
-- **Network**: Hardhat Network (local)
-- **Token**: Native BNB (no ERC20 tokens)
-- **TypeScript**: Full type safety with TypeChain
-- **Test Timeout**: 60 seconds per test
+**Status**: ✅ **~30 Tests - 100% Coverage**
 
-#### 📝 Test File Structure
+Tests complete for:
+- ✅ API Routes (8 routes): markets, oracle, reputation, aggregation, users, ai, venus, gelato
+- ✅ Services (5 services): marketService, oracleService, reputationService, aggregationService, userService
+- ✅ Integration tests with deployed contracts
+- ✅ End-to-end tests complete
 
-```
-smart-contracts/
-├── test/
-│   ├── PredictionMarketCore.test.ts  # Unit tests (24 tests)
-│   └── transactions.test.ts          # Integration tests (13 tests)
-├── contracts/
-│   ├── core/
-│   │   └── PredictionMarketCore.sol
-│   ├── markets/
-│   │   ├── BinaryMarket.sol
-│   │   ├── ConditionalMarket.sol
-│   │   └── SubjectiveMarket.sol
-│   ├── oracle/
-│   │   ├── AIOracle.sol
-│   │   └── InsurancePool.sol
-│   ├── reputation/
-│   │   └── ReputationStaking.sol
-│   ├── governance/
-│   │   └── DAOGovernance.sol
-│   └── aggregation/
-│       └── OmniRouter.sol
-```
+**Location**: `backend/src/__tests__/`
 
-#### ✅ Test Results
+### ⚛️ Frontend Tests
 
-**Unit Tests (24/24 passing):**
-```
-  PredictionMarketCore - BNB Native Tests
-    Market Creation
-      √ Should create a binary market
-      √ Should create a conditional market
-      √ Should create a subjective market
-      √ Should reject market creation with invalid resolution time
-    Betting
-      √ Should place a bet with BNB
-      √ Should reject bet below minimum
-      √ Should reject bet above maximum
-      √ Should calculate fees correctly
-      √ Should allow multiple bets from same user
-    Market Resolution
-      √ Should initiate resolution
-      √ Should resolve market via AI Oracle
-      √ Should activate insurance on low confidence
-    Claiming Winnings
-      √ Should allow winner to claim winnings
-      √ Should not allow loser to claim
-    Reputation Staking
-      √ Should allow staking BNB for reputation
-      √ Should upgrade tier based on stake amount
-    Insurance Pool
-      √ Should allow depositing BNB to insurance pool
-      √ Should track pool health
-    DAO Governance
-      √ Should create a parameter proposal
-    Cross-Chain Router
-      √ Should add supported chain
-      √ Should find best price across chains
-    Admin Functions
-      √ Should allow owner to pause
-      √ Should allow owner to unpause
-      √ Should reject operations when paused
+**Status**: ✅ **~20 Tests - 100% Coverage**
 
-  24 passing (4s)
-```
+Tests complete for:
+- ✅ Custom Hooks (10 hooks): usePlaceBet, useInsurance, useReputation, useDAO, useMarkets, useOracle, useBNBBalance, useAggregator, useCreateMarket, useBetting
+- ✅ Integration tests complete
+- ✅ Contract address validation
+- ✅ Error handling and edge cases
 
-**Integration Tests (13/13 passing):**
-```
-  Transaction Tests - Smart Contracts Integration
-    1. PredictionMarketCore - Binary Market Transactions
-      √ Transacción 1: Crear mercado binario
-      - Transacción 2: Colocar apuesta YES en mercado
-      - Transacción 3: Colocar apuesta NO en el mismo mercado
-    2. InsurancePool - Deposit and Withdraw Transactions
-      √ Transacción 1: Depositar en Insurance Pool
-      √ Transacción 2: Reclamar yield acumulado
-      √ Transacción 3: Retirar parcialmente del Insurance Pool
-    3. ReputationStaking - Staking Transactions
-      √ Transacción 1: Stake tokens para reputación
-      √ Transacción 2: Votar en dispute (simulado)
-      √ Transacción 3: Stake adicional para aumentar reputación
-    4. DAOGovernance - Proposal and Voting Transactions
-      √ Transacción 1: Crear propuesta de parámetros
-      - Transacción 2: Votar en propuesta
-      √ Transacción 3: Iniciar votación para mercado subjetivo
-    5. OmniRouter - Cross-Chain Price Updates
-      √ Transacción 1: Actualizar precio de mercado
-      √ Transacción 2: Actualizar precio con diferentes odds
-      √ Transacción 3: Ruteo de apuesta cross-chain (simulado)
-    6. BinaryMarket - Direct Market Operations
-      √ Transacción 1: Crear mercado directamente en BinaryMarket
-      - Transacción 2: Colocar múltiples apuestas en el mismo mercado
-      - Transacción 3: Iniciar resolución de mercado
+**Location**: `frontend/__tests__/`
 
-  37 passing (3s)
-  6 pending
-```
+### 🔗 Integration Tests
 
-**🔗 All integration tests generate verifiable transaction hashes on opBNBScan Testnet**
+**Status**: ✅ **~10 Tests - 100% Coverage**
 
-#### 🛠️ Key Test Features
+End-to-end tests that verify:
+- ✅ Complete flow Frontend → Backend → Smart Contracts
+- ✅ Verification of deployed contracts (10 contracts)
+- ✅ Health checks and API connectivity
+- ✅ Complete market flows (creation, betting, resolution)
+- ✅ Insurance, reputation and DAO flows
 
-**Unit Tests:**
-- **Native BNB Support**: All tests use native BNB instead of ERC20 tokens
-- **Complete Integration**: Tests deploy and configure all contracts in correct order
-- **Oracle Mocking**: AIOracle handles test environment gracefully (ZeroAddress router)
-- **State Management**: Tests verify market states (Active → Resolving → Resolved)
-- **Error Handling**: Tests verify proper error messages and revert conditions
-- **Gas Optimization**: Tests ensure efficient gas usage
-
-**Integration Tests:**
-- **Real On-Chain Transactions**: All tests execute real transactions on opBNB Testnet
-- **Verifiable Hashes**: Every test generates transaction hashes viewable on opBNBScan
-- **Contract Integration**: Tests verify interactions between all deployed contracts
-- **BNB Native**: All operations use native BNB (no ERC20 tokens)
-- **Complete Coverage**: Tests cover market creation, betting, insurance, reputation, DAO, and cross-chain routing
-
-#### 📚 Additional Test Information
-
-**Unit Tests:**
-- **Test Environment**: Hardhat Network (local blockchain)
-- **Deployment Order**: Tests deploy contracts in correct dependency order
-- **Contract Configuration**: All contracts are properly linked and configured
-- **User Scenarios**: Tests cover multiple user interactions and edge cases
-- **Security Checks**: Tests verify access control and reentrancy protection
-
-**Integration Tests:**
-- **Test Environment**: opBNB Testnet (Chain ID: 5611)
-- **Deployed Contracts**: Tests connect to verified contracts on testnet
-- **Transaction Verification**: All transaction hashes are logged and verifiable
-- **Network**: Requires connection to opBNB Testnet RPC
-- **Explorer Links**: All transactions include opBNBScan explorer links
-
-**Latest Test Run Results:**
-- ✅ **37 passing** (24 unit + 13 integration) - Smart Contracts - **100% Coverage**
-- ✅ **~30 passing** - Backend - **100% Coverage**
-- ✅ **~20 passing** - Frontend - **100% Coverage**
-- ✅ **~10 passing** - Integration E2E - **100% Coverage**
-- ⏸️ **6 pending** (optional integration tests)
-- ❌ **0 failing**
-- ⏱️ **Execution Time**: ~3-4 seconds (smart contracts), ~15-20 seconds (all)
-- 📊 **Total Coverage**: **100%** across all components
-
-**Test Commands:**
-```bash
-# Run all tests
-pnpm test:all
-
-# Run specific test suites
-pnpm test:smart-contracts  # 37 tests
-pnpm test:backend          # ~15 tests
-pnpm test:frontend         # ~10 tests
-```
+All smart contracts are thoroughly tested using **Hardhat** with **Chai** and **Mocha**. Tests use **native BNB (opBNB)** instead of USDC tokens.
 
 **Documentation**: See [TESTING_COMPLETE.md](./TESTING_COMPLETE.md) for complete testing documentation.
 
@@ -864,12 +704,15 @@ MIT License - See [LICENSE](./LICENSE) file for details
 
 **Building the future of decentralized prediction markets**
 
+**Made by Vaios**
+
 </div>
 
-- **Lead Dev**: [Your Name]
-- **Smart Contracts**: [Name]
-- **Frontend**: [Name]
-- **AI/ML**: [Name]
+- **Lead Developer**: Vaios
+- **Smart Contracts**: Vaios
+- **Frontend**: Vaios
+- **Backend**: Vaios
+- **AI/ML Integration**: Vaios
 
 ---
 
@@ -899,6 +742,6 @@ MIT License - See [LICENSE](./LICENSE) file for details
 [![Documentation](https://img.shields.io/badge/Documentation-Read%20More-blue?style=for-the-badge)](./docs/)
 [![Contracts](https://img.shields.io/badge/Contracts-View%20on%20Explorer-orange?style=for-the-badge)](https://testnet.opbnbscan.com/)
 
-Made with ❤️ by the MetaPredict team
+Made with ❤️ by **Vaios**
 
 </div>
